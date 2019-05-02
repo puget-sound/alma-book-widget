@@ -1,0 +1,164 @@
+<?php return array (
+  0 => 
+  array (
+    'title' => 'The Bitter Season ',
+    'author' => 'Hoag, Tami, author.',
+    'portfolio_id' => '23173476500002331',
+    'mms_id' => '99186678302331',
+    'isbn' => 
+    array (
+      0 => '0525954554',
+      1 => '9780525954552',
+      2 => '9780698190832',
+      3 => '0698190831',
+    ),
+    'pub_date' => '2016',
+    'upload_date' => '2018-06-19',
+    'mod_date' => '2019-02-27',
+    'location' => 'ETSU Sherrod Books (4th Floor) (PS3558.O333 B58 2016)',
+    'location_code' => 'esbb4',
+    'subjects' => 
+    array (
+      0 => 'Foreign Language and Literature',
+    ),
+    'catalog_url' => 'https://libs.etsu.edu/primo/resolver.php?sid=books_widget&isbn=0525954554',
+    'cover_url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=0525954554/MC.JPG&client=primo',
+    'type' => 'print',
+  ),
+  1 => 
+  array (
+    'title' => 'Teaching Students With Special Needs In General Education Classrooms ',
+    'author' => 'Lewis, Rena B.',
+    'portfolio_id' => '23175056320002331',
+    'mms_id' => '99245779402331',
+    'isbn' => 
+    array (
+      0 => '0134017560',
+      1 => '9780134017563',
+      2 => '0133947645',
+      3 => '9780133947649',
+    ),
+    'pub_date' => '2017',
+    'upload_date' => '2018-08-13',
+    'mod_date' => '2018-09-04',
+    'location' => 'ETSU Sherrod Books (3rd Floor) (LC1201 .L48 2017)',
+    'location_code' => 'esbb3',
+    'subjects' => 
+    array (
+      0 => 'Education',
+      1 => 'Gender and Diversity',
+    ),
+    'catalog_url' => 'https://libs.etsu.edu/primo/resolver.php?sid=books_widget&isbn=0134017560',
+    'cover_url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=0134017560/MC.JPG&client=primo',
+    'type' => 'print',
+  ),
+  2 => 
+  array (
+    'title' => 'Lillian Boxfish Takes A Walk ',
+    'author' => 'Rooney, Kathleen, 1980- author.',
+    'portfolio_id' => '23173626400002331',
+    'mms_id' => '99275487702331',
+    'isbn' => 
+    array (
+      0 => '1250113326',
+      1 => '9781250113320',
+      2 => '9781250113337',
+      3 => '1250113334',
+    ),
+    'pub_date' => '2017',
+    'upload_date' => '2018-06-25',
+    'mod_date' => '2018-07-02',
+    'location' => 'ETSU Sherrod 2nd Fl. Barbara Jaffe Silvers Collection (PS3618.O676 L55 2017)',
+    'location_code' => 'esbsc',
+    'subjects' => 
+    array (
+      0 => 'Foreign Language and Literature',
+    ),
+    'catalog_url' => 'https://libs.etsu.edu/primo/resolver.php?sid=books_widget&isbn=1250113326',
+    'cover_url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=1250113326/MC.JPG&client=primo',
+    'type' => 'print',
+  ),
+  3 => 
+  array (
+    'title' => 'Hesi Admission Assessment Exam Review ',
+    'author' => '',
+    'portfolio_id' => '23179306510002331',
+    'mms_id' => '99275872802331',
+    'isbn' => 
+    array (
+      0 => '0323353789',
+      1 => '9780323353786',
+    ),
+    'pub_date' => '2017',
+    'upload_date' => '2019-02-11',
+    'mod_date' => '2019-03-07',
+    'location' => 'ETSU Sherrod Books (4th Floor) (R838.5 .E96 2017)',
+    'location_code' => 'esbb4',
+    'subjects' => 
+    array (
+      0 => 'Medicine',
+    ),
+    'catalog_url' => 'https://libs.etsu.edu/primo/resolver.php?sid=books_widget&isbn=0323353789',
+    'cover_url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=0323353789/MC.JPG&client=primo',
+    'type' => 'print',
+  ),
+  4 => 
+  array (
+    'title' => 'History Of Wolves : A Novel ',
+    'author' => 'Fridlund, Emily, author.',
+    'portfolio_id' => '23173626310002331',
+    'mms_id' => '99279486802331',
+    'isbn' => 
+    array (
+      0 => '0802125875',
+      1 => '9780802125873',
+      2 => '9780802189776',
+      3 => '0802189776',
+    ),
+    'pub_date' => '2017',
+    'upload_date' => '2018-06-25',
+    'mod_date' => '2018-11-16',
+    'location' => 'ETSU Sherrod 2nd Fl. Barbara Jaffe Silvers Collection (PS3606.R536 H57 2017)',
+    'location_code' => 'esbsc',
+    'subjects' => 
+    array (
+      0 => 'Foreign Language and Literature',
+    ),
+    'catalog_url' => 'https://libs.etsu.edu/primo/resolver.php?sid=books_widget&isbn=0802125875',
+    'cover_url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=0802125875/MC.JPG&client=primo',
+    'type' => 'print',
+  ),
+  5 => 
+  array (
+    'title' => 'The Boy On The Bridge ',
+    'author' => 'Carey, Mike, 1959- author.',
+    'portfolio_id' => '23173626250002331',
+    'mms_id' => '99282486802331',
+    'isbn' => 
+    array (
+      0 => '0316472204',
+      1 => '9780316472203',
+      2 => '0316300330',
+      3 => '9780316300339',
+      4 => '9780316508186',
+      5 => '0316508187',
+      6 => '9780356503547',
+      7 => '0356503542',
+      8 => '0316300349',
+      9 => '9780316300346',
+    ),
+    'pub_date' => '2017',
+    'upload_date' => '2018-06-25',
+    'mod_date' => '2018-07-02',
+    'location' => 'ETSU Sherrod 2nd Fl. Barbara Jaffe Silvers Collection (PR6103.A72 B69 2017)',
+    'location_code' => 'esbsc',
+    'subjects' => 
+    array (
+      0 => 'Foreign Language and Literature',
+    ),
+    'catalog_url' => 'https://libs.etsu.edu/primo/resolver.php?sid=books_widget&isbn=0316472204',
+    'cover_url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=0316472204/MC.JPG&client=primo',
+    'type' => 'print',
+  ),
+)
+?>

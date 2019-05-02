@@ -1,0 +1,159 @@
+<?php return array (
+  0 => 
+  array (
+    'title' => 'Code Of Medical Ethics Of The American Medical Association',
+    'author' => '',
+    'portfolio_id' => '53177296100002331',
+    'mms_id' => '99272185602331',
+    'isbn' => 
+    array (
+      0 => '9781622025534',
+      1 => '1622025539',
+      2 => '9781622025541',
+      3 => '1622025547',
+    ),
+    'pub_date' => '2017',
+    'upload_date' => '2018-11-06',
+    'mod_date' => '2019-01-01',
+    'location' => 'Online Resource - R2 Digital Library',
+    'location_code' => 'online',
+    'subjects' => 
+    array (
+    ),
+    'catalog_url' => 'https://libs.etsu.edu/primo/resolver.php?sid=books_widget&isbn=9781622025534',
+    'cover_url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=9781622025534/MC.JPG&client=primo',
+    'type' => 'electronic',
+  ),
+  1 => 
+  array (
+    'title' => 'The Manager\'s Guide To Simple, Strategic, Service-Oriented Business Continuity',
+    'author' => 'Loyear, Rachelle.',
+    'portfolio_id' => '53177324850002331',
+    'mms_id' => '99365506102331',
+    'isbn' => 
+    array (
+      0 => '1944480390',
+      1 => '9781944480394',
+    ),
+    'pub_date' => '2017',
+    'upload_date' => '2018-11-06',
+    'mod_date' => '2019-01-01',
+    'location' => 'Online Resource - EBSCOhost Academic eBook Collection (North America)',
+    'location_code' => 'online',
+    'subjects' => 
+    array (
+      0 => 'Management and Leadership',
+    ),
+    'catalog_url' => 'https://libs.etsu.edu/primo/resolver.php?sid=books_widget&isbn=1944480390',
+    'cover_url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=1944480390/MC.JPG&client=primo',
+    'type' => 'electronic',
+  ),
+  2 => 
+  array (
+    'title' => 'Religion, Media, And Marginality In Modern Africa ',
+    'author' => '',
+    'portfolio_id' => '53177276990002331',
+    'mms_id' => '99365506902331',
+    'isbn' => 
+    array (
+      0 => '082144624X',
+      1 => '9780821446249',
+      2 => '9780821423035',
+      3 => '0821423037',
+    ),
+    'pub_date' => '2017',
+    'upload_date' => '2018-11-06',
+    'mod_date' => '2019-01-01',
+    'location' => 'Online Resource - EBSCO eBooks Religion Collection',
+    'location_code' => 'online',
+    'subjects' => 
+    array (
+      0 => 'Digital Media',
+    ),
+    'catalog_url' => 'https://libs.etsu.edu/primo/resolver.php?sid=books_widget&isbn=082144624X',
+    'cover_url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=082144624X/MC.JPG&client=primo',
+    'type' => 'electronic',
+  ),
+  3 => 
+  array (
+    'title' => 'Augustine And The Problem Of Power The Essays And Lectures Of Charles Norris Cochrane.',
+    'author' => 'Cochrane, Charles Norris.',
+    'portfolio_id' => '53177277040002331',
+    'mms_id' => '99365507002331',
+    'isbn' => 
+    array (
+      0 => '1498294251',
+      1 => '9781498294256',
+      2 => '149829426X',
+      3 => '9781498294263',
+      4 => '9781498294249',
+      5 => '1498294243',
+    ),
+    'pub_date' => '2017',
+    'upload_date' => '2018-11-06',
+    'mod_date' => '2019-01-01',
+    'location' => 'Online Resource - EBSCO eBooks Religion Collection',
+    'location_code' => 'online',
+    'subjects' => 
+    array (
+    ),
+    'catalog_url' => 'https://libs.etsu.edu/primo/resolver.php?sid=books_widget&isbn=1498294251',
+    'cover_url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=1498294251/MC.JPG&client=primo',
+    'type' => 'electronic',
+  ),
+  4 => 
+  array (
+    'title' => 'Aesthetics Of Religion : A Connective Concept.',
+    'author' => 'Grieser, Alexandra K.',
+    'portfolio_id' => '53177305180002331',
+    'mms_id' => '99365507102331',
+    'isbn' => 
+    array (
+      0 => '3110461021',
+      1 => '9783110461022',
+      2 => '3110461013',
+      3 => '9783110461015',
+      4 => '9783110458756',
+      5 => '3110458756',
+    ),
+    'pub_date' => '2017',
+    'upload_date' => '2018-11-06',
+    'mod_date' => '2019-01-01',
+    'location' => 'Online Resource - EBSCO eBooks Religion Collection',
+    'location_code' => 'online',
+    'subjects' => 
+    array (
+      0 => 'Philosophy',
+    ),
+    'catalog_url' => 'https://libs.etsu.edu/primo/resolver.php?sid=books_widget&isbn=3110461021',
+    'cover_url' => 'https://books.google.com/books/content?id=ALxGDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+    'type' => 'electronic',
+  ),
+  5 => 
+  array (
+    'title' => 'Religion And Nationalism In Chinese Societies ',
+    'author' => '',
+    'portfolio_id' => '53177306080002331',
+    'mms_id' => '99365507202331',
+    'isbn' => 
+    array (
+      0 => '9048535050',
+      1 => '9789048535057',
+      2 => '9789462984394',
+      3 => '9462984395',
+    ),
+    'pub_date' => '2017',
+    'upload_date' => '2018-11-06',
+    'mod_date' => '2019-01-01',
+    'location' => 'Online Resource - EBSCO eBooks Religion Collection',
+    'location_code' => 'online',
+    'subjects' => 
+    array (
+      0 => 'History',
+    ),
+    'catalog_url' => 'https://libs.etsu.edu/primo/resolver.php?sid=books_widget&isbn=9048535050',
+    'cover_url' => 'https://books.google.com/books/content?id=Lcg-DwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+    'type' => 'electronic',
+  ),
+)
+?>

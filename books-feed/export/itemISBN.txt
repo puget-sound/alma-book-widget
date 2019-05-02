@@ -1,0 +1,39 @@
+<?php return array (
+  0 => 
+  array (
+    'mms_id' => '5355555555555555',
+    'isbn' => 'unknown',
+  ),
+  1 => 
+  array (
+    'mms_id' => '99275872802331',
+    'url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=0323353789/MC.JPG&client=primo',
+  ),
+  2 => 
+  array (
+    'mms_id' => '9936881402331',
+    'url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=0521818052/MC.JPG&client=primo',
+  ),
+  3 => 
+  array (
+    'mms_id' => '99376585102331',
+    'url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=0807169951/MC.JPG&client=primo',
+  ),
+  4 => 
+  array (
+    'mms_id' => '99376586002331',
+    'url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=9781784740900/MC.JPG&client=primo',
+  ),
+  5 => 
+  array (
+    'mms_id' => '99376586202331',
+    'url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=1451676646/MC.JPG&client=primo',
+  ),
+  6 => 
+  array (
+    'mms_id' => '99376586302331',
+    'url' => 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=9781101980996/MC.JPG&client=primo',
+  ),
+)
+
+?>
