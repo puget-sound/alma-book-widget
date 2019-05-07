@@ -353,6 +353,8 @@ function curl_get_file_size( $remoteFile ) {
  */
 function getCoverURL($isbn){
 
+	global $enable_google;
+
 	//Check and convert to array if needed
 	if(is_array($isbn)){
 	}else{
@@ -449,7 +451,7 @@ function gBooks($isbn){
 	global $google_key;
 
 	//Check for API Key
-	if($google_key = ''){
+	if(empty($google_key)){
 		echo "No Google API Key Provided";
 	}else{
 		//continue with API Call
