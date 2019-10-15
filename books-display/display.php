@@ -5,7 +5,7 @@ require 'functions.php';
 require 'config.php';
 
 
-//Retreive parameters
+//Retrieve parameters
 $query = clean($_GET['query']);
 $filter = clean($_GET['filter']);
 $template = clean($_GET['template']);

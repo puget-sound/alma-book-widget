@@ -12,11 +12,11 @@ if(empty($argv[1])){
 }
 
 
-//Retreive Report Type
+//Retrieve Report Type
 $type = htmlspecialchars($argv[1]);
 if($type=='print'||$type=='electronic') {
 
-	//Retreive report location and column names
+	//Retrieve report location and column names
 	if($type=='print'){
 		$report_location = $pbook_report;
 		$column_labels = $print_columns;
