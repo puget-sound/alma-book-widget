@@ -2,11 +2,11 @@
 
 Alma Book Widget is an utility that can read an Alma Analytics report and produce book widgets (sliders, tables, and more). These widgets can be embeded into a webpage or digital display. 
 
-We are using this utility at ETSU to promote new books (both physcial and electronic). The documentation provided below is  following this particular use-case. 
+Alma Book Widget is created and maintained by Travis Clamon, Electronic Resources Librarian at East Tennessee State University.
 
->Documentation is a work in progress. You can view my [Code4Lib article](https://dc.etsu.edu/etsu-works/4868/) or my [ELUNA presentation](https://dc.etsu.edu/etsu-works/4869/) to gain a deeper understanding of how it works. 
+>Documentation is a work in progress. You can view the [Code4Lib article](https://dc.etsu.edu/etsu-works/4868/) or the [ELUNA presentation](https://dc.etsu.edu/etsu-works/4869/) to gain a deeper understanding of how it works. 
 
-Alma Book Widget is created and maintained by Travis Clamon, Electronic Resources Librarian at East Tennessee State University. 
+This version has been modified to work at the University of Puget Sound.
 
 
 # How it works
