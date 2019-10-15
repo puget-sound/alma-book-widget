@@ -90,6 +90,7 @@ $template = clean($_GET['template']);
 	</script>
 </head>
 <body>
+<h1>Create a widget</h1>
 	<p>Which filter would you like to apply?</p>
 	<form id="form1">
 <?php

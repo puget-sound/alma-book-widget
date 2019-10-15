@@ -1,7 +1,7 @@
 <?php
 
 /*****************************************************************
- * Retreives Alma Analytics Report
+ * Retrieves Alma Analytics Report
  *
  * @param $apikey - Alma API Key (ExLibris Developers Network)
  * @param $report_location - location of report in Alma Analytics (defined in config.php)
@@ -210,7 +210,7 @@ function analyzeResult($result,$type,$book_array,$column_labels,$isbnFileLocatio
  */
 function writeFile($data, $type){
 
-	//Retreive location of data folder for display component (see config.php)
+	//Retrieve location of data folder for display component (see config.php)
 	global $display_data_folder;
 	
 	$json = json_encode(array('data' => $data));
@@ -445,7 +445,7 @@ if (isset($mms_id)){
 }//END FUNCTIOn
 
 /**********************************************************************
- * Retreives API reponse from Google Books using an ISBN
+ * Retrieves API reponse from Google Books using an ISBN
  *
  * @param $isbn string - single ISBN
  * @param $google_key - Google Books API Key

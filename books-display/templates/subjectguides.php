@@ -70,7 +70,7 @@
 
   </script>
 
-<p>See a complete list of books here</p>
+<p><a href="http://lxphpdev01.pugetsound.edu/alma-book-widget/books-display/list-all/" target="_blank">See a complete list of books here</a></p>
 
 </div> <!--END CONTENT DIV -->
 <!-- Issue discovered with iPhones - added CSS below  (https://github.com/kenwheeler/slick/issues/2834) -->

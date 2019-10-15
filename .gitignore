@@ -1,5 +1,6 @@
 .DS_Store
 /books-display/data/book_electronic.json
 /books-display/data/book_print.json
+/books-display/config.php
 /books-feed/config.php
 /books-feed/export
