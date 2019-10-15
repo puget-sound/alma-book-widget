@@ -53,10 +53,10 @@ foreach ($keywords as $keyword) {
         array_push($subjects, "Art");
         break;
     }
-   if (strpos($keyword, "astronomy") !== false) {
+   /*if (strpos($keyword, "astronomy") !== false) {
         array_push($subjects, "Astronomy");
         break;
-    }   
+    } */  
     if (strpos($keyword, "audiology") !== false) {
         array_push($subjects, "Audiology");
         break;

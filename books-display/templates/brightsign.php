@@ -25,7 +25,7 @@ div.media-body{margin-top:110px;margin-left:425px;margin-right:0px}
 
           <div class="masthead clearfix">
             <div class="container inner" style="text-align:center;">
-              <h3 class="deepshadow">New Books at Sherrod</h3>
+              <h3 class="deepshadow">New Books at Collins</h3>
 
             </div>
           </div>
@@ -47,6 +47,7 @@ $random = rand(1, count($results_array)-1);
                                 echo "<div class=\"media-left media-middle\">";
                                 echo "<img class=\"media-object\" src=\"";
                                 $cover = str_replace("sc.gif","lc.gif",$results_array[$random]['cover_url']);
+                                $cover = str_replace("MC.JPG","LC.JPG",$results_array[$random]['cover_url']);
                                 echo $cover;
                                 echo "\"></div>";
                                 echo "<div class=\"media-body\">";

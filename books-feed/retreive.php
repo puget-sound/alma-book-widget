@@ -1,5 +1,7 @@
 <?php
 
+date_default_timezone_set('America/Los_Angeles');
+
 //Include PHP Files
 include 'config.php';
 include 'functions.php';

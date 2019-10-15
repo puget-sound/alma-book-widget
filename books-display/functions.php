@@ -32,7 +32,6 @@ function createSlider($array_source, $filter, $query, $template) {
   		}//end else if
 	}//end foreach	
 
-	
 	//Count Results 
 	if (count($results_array) > 0){
 		

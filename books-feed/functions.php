@@ -90,7 +90,12 @@ function analyzeResult($result,$type,$book_array,$column_labels,$isbnFileLocatio
 		$pub_date = substr(preg_replace('/[^0-9\-]/', '', $book->{$column_labels['pub_date']}->__toString()), -4);
 		$upload_date = $book->{$column_labels['upload_date']}->__toString();
 		$modification_date = $book->{$column_labels['mod_date']}->__toString();
-		$catalog_url = "https://libs.etsu.edu/primo/resolver.php?sid=books_widget&isbn=" . $isbn[0]; 
+		if ($type == 'print') {
+			$catalog_url = "https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&search_scope=everything&sortby=rank&vid=UPUGS&query=isbn,exact," . $isbn[0]; 
+		}
+		if ($type == 'electronic') {
+			$catalog_url = "https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/openurl?url_ver=Z39.88-2004&vid=UPUGS&institution=UPUGS&isbn=" . $isbn[0];
+		}
 		$cover_url = $isbn_cover;
 		$group1 = explode(";", $book->{$column_labels['group1']}->__toString());		
 		$group2 = explode(";", $book->{$column_labels['group2']}->__toString());
@@ -504,6 +509,34 @@ function slack($txt) {
   curl_setopt($c, CURLOPT_POSTFIELDS, array('payload' => json_encode($msg)));
   curl_exec($c);
   curl_close($c);
+}
+
+
+if (! function_exists('array_column')) {
+    function array_column(array $input, $columnKey, $indexKey = null) {
+        $array = array();
+        foreach ($input as $value) {
+            if ( !array_key_exists($columnKey, $value)) {
+                trigger_error("Key \"$columnKey\" does not exist in array");
+                return false;
+            }
+            if (is_null($indexKey)) {
+                $array[] = $value[$columnKey];
+            }
+            else {
+                if ( !array_key_exists($indexKey, $value)) {
+                    trigger_error("Key \"$indexKey\" does not exist in array");
+                    return false;
+                }
+                if ( ! is_scalar($value[$indexKey])) {
+                    trigger_error("Key \"$indexKey\" does not contain scalar value");
+                    return false;
+                }
+                $array[$value[$indexKey]] = $value[$columnKey];
+            }
+        }
+        return $array;
+    }
 }
 
 ?>

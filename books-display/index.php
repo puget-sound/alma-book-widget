@@ -10,7 +10,6 @@ $query = clean($_GET['query']);
 $filter = clean($_GET['filter']);
 $template = clean($_GET['template']);
 
-
 ?>
 <html>
 <head>
