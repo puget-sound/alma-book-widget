@@ -17,6 +17,20 @@ $template = clean($_GET['template']);
 		body { font-family: arial;}
 		.hide { display: none;}
 		p { font-weight: bold;}
+		.subject-list {
+			list-style:none;
+  			columns: 4 auto;
+  			padding:0;
+		}
+		.pub_date-list {
+			list-style:none;
+  			columns: 5em;
+  			padding:0;
+		}
+		.subject-list li,
+		.pub_date-list li {
+			margin-bottom:4px;
+		}
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
@@ -91,28 +105,26 @@ $template = clean($_GET['template']);
 </head>
 <body>
 <h1>Create a widget</h1>
-	<p>Which filter would you like to apply?</p>
+	<p>Choose a filter to apply</p>
 	<form id="form1">
 <?php
 //Look in the array and indentify columns
 //First removes filters that does not make since - see config.php
 foreach(array_diff(array_keys($mergedArray[1]), $noFilters) as $column) {
-	echo "<input type=\"radio\" name=\"filters\" value=\"" . $column . "\" onclick=\"show2();\" />";
-	echo $column;
-	echo "&nbsp;&nbsp;";
+	echo "<span style='margin-right:12px;'><label><input type=\"radio\" name=\"filters\" value=\"" . $column . "\" onclick=\"show2();\" style='margin-right:8px;' />" . $column . "</label></span>";
 }
 
 ?>
 </form>
 <div id="div1" class="hide">
-<hr><p>Choose a value for your filter...</p>
+<hr><p>Choose a value for your filter</p>
 </div>
 <form id="form2">
 
 
 </form>
 <div id="div_templates" class="hide">
-<hr><p>Choose a template...</p>
+<hr><p>Choose a template</p>
 
 
 <form id="templates">
@@ -124,9 +136,7 @@ foreach(array_diff(array_keys($mergedArray[1]), $noFilters) as $column) {
 	//remove directory options
 	$temp_options = array_diff($temp_options,array('.', '..'));
 	foreach($temp_options as $option) {
-        	echo "<input type=\"radio\" name=\"templates\" value=\"" . str_replace('.php', '', $option) . "\" onclick=\"\" />";
-        	echo str_replace('.php', '', $option);
-		echo "&nbsp;&nbsp;";
+        	echo "<span style='margin-right:12px;'><label><input type=\"radio\" name=\"templates\" value=\"" . str_replace('.php', '', $option) . "\" onclick=\"\" style='margin-right:8px;' />" . str_replace('.php', '', $option) . "</label></span>";
 	}
 
 	?>

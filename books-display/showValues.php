@@ -15,17 +15,35 @@ if($filter == 'subjects'){
 			array_push($sv_array, $subvalue);
 		}
 	}
+	sort($sv_array);
+	echo "<ul class='subject-list'>";
 	foreach(array_unique($sv_array) as $unique_value){
 		if($unique_value !== "") {
-        	echo "<span style='display:inline-block;min-width:275px;'><label><input type=\"radio\" name=\"values\" value=\"" . $unique_value . "\" onclick=\"\" />" . $unique_value . "</label></span>";
+        	//echo "<span style='display:inline-block;min-width:285px;'><label><input type=\"radio\" name=\"values\" value=\"" . $unique_value . "\" onclick=\"\" style='margin-right:8px;' />" . $unique_value . "</label></span>";
+        	echo "<li><label><input type=\"radio\" name=\"values\" value=\"" . $unique_value . "\" onclick=\"\" style='margin-right:8px;' />" . $unique_value . "</label></li>";
         }
 		}	
+	echo "</ul>";
 	unset($sv_array);	
 }
 elseif($filter == 'title' || $filter == 'author'){
 
 	echo "<input type=\"text\" name=\"values\"><br>";
 
+}elseif($filter == 'pub_date') {
+	$pd_array = array();
+	foreach(array_column($mergedArray, $filter) as $value) { 
+		array_push($pd_array, $value);
+	}
+	//print_r($pd_array);
+	rsort($pd_array);
+	echo "<ul class='pub_date-list'>";
+	foreach(array_unique($pd_array) as $value) {
+        	//echo "<input type=\"radio\" name=\"values\" value=\"" . $value . "\" onclick=\"\" />";
+        	//echo $value;
+        echo "<li><label><input type=\"radio\" name=\"values\" value=\"" . $value . "\" onclick=\"\" style='margin-right:8px;' />" . $value . "</label></li>";
+	}
+	echo "</ul>";
 }else{
 	foreach(array_unique(array_column($mergedArray, $filter)) as $value) {
         	echo "<input type=\"radio\" name=\"values\" value=\"" . $value . "\" onclick=\"\" />";
