@@ -8,79 +8,79 @@ foreach($group1 as $term) {
 	switch ($term) {
     		
                 case "Human anatomy":
-                        array_push($subjects, "Anatomy and Physiology");
+                        array_push($subjects, "Exercise Science");
                         break;
 		case "Physiology":
-			array_push($subjects, "Anatomy and Physiology");
+			array_push($subjects, "Exercise Science");
 			break;
 		case "Anthropology":
-        		array_push($subjects, "Anthropology");
+        		array_push($subjects, "Sociology & Anthropology");
         		break;
     		case "Visual arts":
-                        array_push($subjects, "Art");
+                        array_push($subjects, "Arts & Art History");
 			break;
 		case "Architecture":
-                        array_push($subjects, "Art");
+                        array_push($subjects, "Arts & Art History");
                         break;
 		case "Sculpture":
-                        array_push($subjects, "Art");
+                        array_push($subjects, "Arts & Art History");
                         break;
 		case "Drawing. Design. Illustration":
-                        array_push($subjects, "Art");
+                        array_push($subjects, "Arts & Art History");
                         break;
 		case "Painting":
-                        array_push($subjects, "Art");
+                        array_push($subjects, "Arts & Art History");
                         break;
 		case "Print media":
-                        array_push($subjects, "Art");
+                        array_push($subjects, "Arts & Art History");
                         break;
 		case "Decorative arts":
-                        array_push($subjects, "Art");
+                        array_push($subjects, "Arts & Art History");
                         break;
 		case "Arts in general":
-                        array_push($subjects, "Art");
+                        array_push($subjects, "Arts & Art History");
                         break;
 		case "Photography":
-                        array_push($subjects, "Art");
+                        array_push($subjects, "Arts & Art History");
                         break;
 		case "Astronomy":
-                        array_push($subjects, "Astronomy");
+                        array_push($subjects, "Physics");
                         break;
 		case "Natural history (General)":
-                        array_push($subjects, "Biological Sciences");
+                        array_push($subjects, "Biology");
                         break;
 		case "Biology (General)":
-                        array_push($subjects, "Biological Sciences");
+                        array_push($subjects, "Biology");
                         break;
 		case "Commerce":
-                        array_push($subjects, "Business");
+                        array_push($subjects, "Business & Leadership");
                         break;
                 case "Chemistry":
                         array_push($subjects, "Chemistry");
                         break;
                 case "Social pathology. Social and public welfare. Criminology":
-			array_push($subjects, "Criminal Justice and Criminology");
+			array_push($subjects, "Politics & Government");
 			break;
 		case "Commerce":
-                        array_push($subjects, "Business");
+                        array_push($subjects, "Business & Leadership");
                         break;
                 case "Commerce":
-                        array_push($subjects, "Business");
+                        array_push($subjects, "Business & Leadership");
                         break;
                 case "Dentistry":
-                        array_push($subjects, "Dental Hygiene");
+                        array_push($subjects, "Occupational Therapy");
                         break;
                 case "Finance":
-                        array_push($subjects, "Economics and Finance");
+                        array_push($subjects, "Business & Leadership");
                         break;
                 case "Economic history and conditions":
-                        array_push($subjects, "Economics and Finance");
+                        array_push($subjects, "Business & Leadership");
                         break;
                 case "Economic theory. Demography":
-                        array_push($subjects, "Economics and Finance");
+                        array_push($subjects, "Business & Leadership");
                         break;
                 case "Public finance":
-                        array_push($subjects, "Economics and Finance");
+                        array_push($subjects, "Business & Leadership");
                         break;
                 case "History of education":
                         array_push($subjects, "Education");
@@ -92,43 +92,43 @@ foreach($group1 as $term) {
                         array_push($subjects, "Education");
                         break;
                 case "Electrical engineering. Electronics. Nuclear engineering":
-			array_push($subjects, "Engineering");
+			array_push($subjects, "Science,  Technology & Society");
 			break;
 		case "Environmental technology. Sanitary engineering":
-                        array_push($subjects, "Environmental Health");
+                        array_push($subjects, "Environmental Policy & Decision Making");
                         break;
                 case "Environmental sciences":
-                        array_push($subjects, "Environmental Health");
+                        array_push($subjects, "Environmental Policy & Decision Making");
                         break;
                 case "Greek philology and language":
-                        array_push($subjects, "Foreign Language and Literature");
+                        array_push($subjects, "Classics");
                         break;
                 case "Hyperborean, Indian, and artificial languages":
-                        array_push($subjects, "Foreign Language and Literature");
+                        array_push($subjects, "Asian Studies");
                         break;
 		case "Languages of Eastern Asia, Africa, Oceania":
-                        array_push($subjects, "Foreign Language and Literature");
+                        array_push($subjects, "Asian Studies");
                         break;
                 case "Latin philology and language":
-                        array_push($subjects, "Foreign Language and Literature");
+                        array_push($subjects, "Classics");
                         break;
                 case "Medieval and modern Greek language":
-                        array_push($subjects, "Foreign Language and Literature");
+                        array_push($subjects, "Classics");
                         break;						
                 case "Modern languages. Celtic languages":
-                        array_push($subjects, "Foreign Language and Literature");
+                        array_push($subjects, "Classics");
                         break;						
                 case "Afrikaans literature":
-                        array_push($subjects, "Foreign Language and Literature");
+                        array_push($subjects, "African American Studies");
                         break;
                 case "American literature":
-                        array_push($subjects, "Foreign Language and Literature");
+                        array_push($subjects, "English");
                         break;
                 case "Byzantine and modern Greek literature":
-                        array_push($subjects, "Foreign Language and Literature");
+                        array_push($subjects, "Classics");
                         break;
                 case "Canadian literature":
-                        array_push($subjects, "Foreign Language and Literature");
+                        array_push($subjects, "English");
                         break;
                 case "Classical literature":
                         array_push($subjects, "Foreign Language and Literature");
