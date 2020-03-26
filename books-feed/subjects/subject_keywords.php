@@ -17,68 +17,71 @@ foreach ($keywords as $keyword) {
 	}
 
  //A-Z Subjects
-   if (strpos($keyword, "accounting") !== false) {
-        array_push($subjects, "Accountancy");
+   if (strpos($keyword, "african american") !== false) {
+        array_push($subjects, "African American Studies");
         break;
     }
-   if (strpos($keyword, "accountancy") !== false) {
-        array_push($subjects, "Accountancy");
+   if (strpos($keyword, "diversity") !== false) {
+        array_push($subjects, "African American Studies");
         break;
     }
-   if (strpos($keyword, "anthropology") !== false) {
-        array_push($subjects, "Anthropology");
+   if (strpos($keyword, "art history") !== false) {
+        array_push($subjects, "Art & Art History");
         break;
-    }
-   if (strpos($keyword, "appalachia") !== false) {
-        array_push($subjects, "Appalachian Studies");
-        break;
-    }
-   if (strpos($keyword, "appalachian") !== false) {
-        array_push($subjects, "Appalachian Studies");
-        break;
-    }
-   if (strpos($keyword, "archival") !== false) {
-        array_push($subjects, "Archival Studies");
-        break;
-    }
- //  if (strpos($keyword, "art") !== false) {
-   //     array_push($subjects, "Art");
-     //   break;
-  //  }
    if (strpos($keyword, "drawing") !== false) {
-        array_push($subjects, "Art");
+        array_push($subjects, "Art & Art History");
         break;
     }
    if (strpos($keyword, "painting") !== false) {
-        array_push($subjects, "Art");
+        array_push($subjects, "Art & Art History");
         break;
     }
-   /*if (strpos($keyword, "astronomy") !== false) {
-        array_push($subjects, "Astronomy");
+   if (strpos($keyword, "china") !== false) {
+        array_push($subjects, "Asian Languages & Cultures");
+        break;   
+    }
+   if (strpos($keyword, "chinese") !== false) {
+        array_push($subjects, "Asian Languages & Cultures");
         break;
-    } */  
-    if (strpos($keyword, "audiology") !== false) {
-        array_push($subjects, "Audiology");
+    }
+   if (strpos($keyword, "india") !== false) {
+        array_push($subjects, "Asian Languages & Cultures");
+        break;
+    }
+   if (strpos($keyword, "japan") !== false) {
+        array_push($subjects, "Asian Languages & Cultures");
+        break;
+    }
+   if (strpos($keyword, "japanese") !== false) {
+        array_push($subjects, "Asian Languages & Cultures");
+        break;   
+    }
+   if (strpos($keyword, "bioethics") !== false) {
+        array_push($subjects, "Bioethics");
         break;
     }
    if (strpos($keyword, "biology") !== false) {
-        array_push($subjects, "Biological Sciences");
+        array_push($subjects, "Biology");
         break;
     }
    if (strpos($keyword, "botany") !== false) {
-        array_push($subjects, "Biological Sciences");
+        array_push($subjects, "Biology");
         break;
     }
    if (strpos($keyword, "genetics") !== false) {
-        array_push($subjects, "Biological Sciences");
+        array_push($subjects, "Biology");
         break;
     }
    if (strpos($keyword, "ecology") !== false) {
-        array_push($subjects, "Biological Sciences");
+        array_push($subjects, "Biology");
         break;
     }
-   if (strpos($keyword, "cardiopulmonary") !== false) {
-        array_push($subjects, "Cardiopulmonary Science");
+   if (strpos($keyword, "business") !== false) {
+        array_push($subjects, "Business & Leadership");
+        break;
+    }
+   if (strpos($keyword, "leadership") !== false) {
+        array_push($subjects, "Business & Leadership");
         break;
     }
    if (strpos($keyword, "career") !== false) {
@@ -89,68 +92,48 @@ foreach ($keywords as $keyword) {
         array_push($subjects, "Chemistry");
         break;
     }
+   if (strpos($keyword, "classics") !== false) {
+        array_push($subjects, "Classics & Ancient Mediterranean Studies");
+        break;
+    }
+   if (strpos($keyword, "ancient") !== false) {
+        array_push($subjects, "Classics & Ancient Mediterranean Studies");
+        break;
+    }
+   if (strpos($keyword, "mediterranean") !== false) {
+        array_push($subjects, "Classics & Ancient Mediterranean Studies");
+        break;
+    }
+   if (strpos($keyword, "communication") !== false) {
+        array_push($subjects, "Communication Studies");
+        break;
+    }
+   if (strpos($keyword, "media") !== false) {
+        array_push($subjects, "Communication Studies");
+        break;
+    }
    if (strpos($keyword, "computing") !== false) {
-        array_push($subjects, "Computing");
+        array_push($subjects, "Computer Science");
         break;
     }
    if (strpos($keyword, "computer") !== false) {
-        array_push($subjects, "Computing");
-        break;
-    }
-   if (strpos($keyword, "technology") !== false) {
-        array_push($subjects, "Computing");
+        array_push($subjects, "Computer Science");
         break;
     }
    if (strpos($keyword, "network") !== false) {
-        array_push($subjects, "Computing");
+        array_push($subjects, "Computer Science");
         break;
     }
    if (strpos($keyword, "programming") !== false) {
-        array_push($subjects, "Computing");
-        break;
-    }
-   if (strpos($keyword, "counseling") !== false) {
-        array_push($subjects, "Counseling");
-        break;
-    }
-   if (strpos($keyword, "criminal") !== false) {
-        array_push($subjects, "Criminal Justice and Criminology");
-        break;
-    }
-   if (strpos($keyword, "justice") !== false) {
-        array_push($subjects, "Criminal Justice and Criminology");
-        break;
-    }
-   if (strpos($keyword, "crime") !== false) {
-        array_push($subjects, "Criminal Justice and Criminology");
-        break;
-    }
-   if (strpos($keyword, "criminology") !== false) {
-        array_push($subjects, "Criminal Justice and Criminology");
-        break;
-    }
-   if (strpos($keyword, "dental") !== false) {
-        array_push($subjects, "Dental Hygiene");
-        break;
-    }
-   if (strpos($keyword, "dentistry") !== false) {
-        array_push($subjects, "Dental Hygiene");
-        break;
-    }
-   if (strpos($keyword, "digital media") !== false) {
-        array_push($subjects, "Digital Media");
+        array_push($subjects, "Computer Science");
         break;
     }
    if (strpos($keyword, "economics") !== false) {
-        array_push($subjects, "Economics and Finance");
-        break;
-    }
-   if (strpos($keyword, "finance") !== false) {
-        array_push($subjects, "Economics and Finance");
+        array_push($subjects, "Economics");
         break;
     }
    if (strpos($keyword, "education") !== false) {
-        array_push($subjects, "Education");
+        array_push($subjects, "Education Studies");
         break;
     }
    if (strpos($keyword, "engineering") !== false) {
@@ -162,59 +145,82 @@ foreach ($keywords as $keyword) {
         break;
     }
    if (strpos($keyword, "environmental health") !== false) {
-        array_push($subjects, "Environmental Health");
+        array_push($subjects, "Environmental Policy & Decision Making");
         break;
     }
-   if (strpos($keyword, "foreign language") !== false) {
-        array_push($subjects, "Foreign Language and Literature");
+   if (strpos($keyword, "environmental policy") !== false) {
+        array_push($subjects, "Environmental Policy & Decision Making");
+        break;
+    }
+   if (strpos($keyword, "exercise science") !== false) {
+        array_push($subjects, "Exercise Science");
+        break;
+    }
+   if (strpos($keyword, "french") !== false) {
+        array_push($subjects, "French Studies");
         break;
     }
    if (strpos($keyword, "gender") !== false) {
-        array_push($subjects, "Gender and Diversity");
+        array_push($subjects, "Gender & Queer Studies");
         break;
     }
-   if (strpos($keyword, "diversity") !== false) {
-        array_push($subjects, "Gender and Diversity");
+   if (strpos($keyword, "queer") !== false) {
+        array_push($subjects, "Gender & Queer Studies");
+        break;
+    }
+   if (strpos($keyword, "nonbinary") !== false) {
+        array_push($subjects, "Gender & Queer Studies");
         break;
     }
    if (strpos($keyword, "geosciences") !== false) {
-        array_push($subjects, "Geosciences");
+        array_push($subjects, "Geology");
         break;
     }
    if (strpos($keyword, "geology") !== false) {
-        array_push($subjects, "geosciences");
+        array_push($subjects, "Geology");
         break;
     }
-   if (strpos($keyword, "graphic design") !== false) {
-        array_push($subjects, "Graphic Design");
+   if (strpos($keyword, "german") !== false) {
+        array_push($subjects, "German Studies");
         break;
     }
-   if (strpos($keyword, "healthcare management") !== false) {
-        array_push($subjects, "Healthcare Management");
+   if (strpos($keyword, "global development") !== false) {
+        array_push($subjects, "global development studies");
+        break;
+    }
+   if (strpos($keyword, "hispanic") !== false) {
+        array_push($subjects, "Hispanic Studies");
         break;
     }
    if (strpos($keyword, "history") !== false) {
         array_push($subjects, "History");
         break;
     }
-   if (strpos($keyword, "international studies") !== false) {
-        array_push($subjects, "International Studies");
+   if (strpos($keyword, "archaeology") !== false) {
+        array_push($subjects, "History");
         break;
     }
-   if (strpos($keyword, "legal") !== false) {
-        array_push($subjects, "Legal Resources");
+   if (strpos($keyword, "international political economy") !== false) {
+        array_push($subjects, "International Political Economy");
         break;
     }
+   if (strpos($keyword, "middle east") !== false) {
+        array_push($subjects, "International Political Economy");
+        break;
+    }
+
+   if (strpos($keyword, "commerce") !== false) {
+        array_push($subjects, "International Political Economy");
+        break;
+    }
+
+
    if (strpos($keyword, "management") !== false) {
-        array_push($subjects, "Management and Leadership");
+        array_push($subjects, "Business & Leadership");
         break;
     }
    if (strpos($keyword, "leadership") !== false) {
-        array_push($subjects, "");
-        break;
-    }
-   if (strpos($keyword, "marketing") !== false) {
-        array_push($subjects, "Marketing");
+        array_push($subjects, "Business & Leadership");
         break;
     }
    if (strpos($keyword, "mathematics") !== false) {
@@ -227,22 +233,6 @@ foreach ($keywords as $keyword) {
     }
    if (strpos($keyword, "music") !== false) {
         array_push($subjects, "Music");
-        break;
-    }
-   if (strpos($keyword, "nursing") !== false) {
-        array_push($subjects, "Nusing");
-        break;
-    }
-   if (strpos($keyword, "nutrition") !== false) {
-        array_push($subjects, "Nutrition and Dietetics");
-        break;
-    }
-   if (strpos($keyword, "dietetics") !== false) {
-        array_push($subjects, "Nutrition and Dietetics");
-        break;
-    }
-   if (strpos($keyword, "paleontology") !== false) {
-        array_push($subjects, "Paleontology");
         break;
     }
    if (strpos($keyword, "philosophy") !== false) {
@@ -258,161 +248,134 @@ foreach ($keywords as $keyword) {
         break;
     }
    if (strpos($keyword, "political") !== false) {
-        array_push($subjects, "Political Science");
+        array_push($subjects, "Politics & Government");
         break;
     }
    if (strpos($keyword, "politics") !== false) {
-        array_push($subjects, "Political Science");
+        array_push($subjects, "Politics & Government");
         break;
     }
    if (strpos($keyword, "psychology") !== false) {
         array_push($subjects, "Psychology");
         break;
     }
-   if (strpos($keyword, "public administration") !== false) {
-        array_push($subjects, "Public Administration");
+   if (strpos($keyword, "Science and Society") !== false) {
+        array_push($subjects, "Science, Technology & Society");
         break;
     }
-   if (strpos($keyword, "public health") !== false) {
-        array_push($subjects, "Public Health");
+   if (strpos($keyword, "Technology and Society") !== false) {
+        array_push($subjects, "Science, Technology & Society");
         break;
     }
-   if (strpos($keyword, "radiography") !== false) {
-        array_push($subjects, "Radiography");
-        break;
-    }
-   if (strpos($keyword, "regional") !== false) {
-        array_push($subjects, "Regional and Community Studies");
-        break;
-    }
-   if (strpos($keyword, "social work") !== false) {
-        array_push($subjects, "Social Work");
+   if (strpos($keyword, "technology") !== false) {
+        array_push($subjects, "Science, Technology & Society");
         break;
     }
    if (strpos($keyword, "sociology") !== false) {
-        array_push($subjects, "Sociology");
+        array_push($subjects, "Sociology & Anthropology");
         break;
-    }
-   if (strpos($keyword, "speech language") !== false) {
-        array_push($subjects, "Speech-Lanuguage Pathology");
-        break;
-    }
-   if (strpos($keyword, "sport leadership") !== false) {
-        array_push($subjects, "Sport Leadership and Management");
-        break;
-    }
-   if (strpos($keyword, "physiology") !== false) {
-        array_push($subjects, "Sport Physiology and Performance");
-        break;
-    }
-   if (strpos($keyword, "storytelling") !== false) {
-        array_push($subjects, "Storytelling");
-        break;
-    }
-   if (strpos($keyword, "surveying") !== false) {
-        array_push($subjects, "Surveying");
+    }   
+   if (strpos($keyword, "anthropology") !== false) {
+        array_push($subjects, "Sociology & Anthropology");
         break;
     }
    if (strpos($keyword, "theatre") !== false) {
-        array_push($subjects, "Theatre");
+        array_push($subjects, "Theatre Arts");
         break;
     }
    if (strpos($keyword, "women's studies") !== false) {
-        array_push($subjects, "Women's Studies");
+        array_push($subjects, "Gender & Queer Studies");
         break;
     }
    if (strpos($keyword, "womens studies") !== false) {
-        array_push($subjects, "Women's Studies");
+        array_push($subjects, "Gender & Queer Studies");
         break;
     }
 
 //Medicine and Pharmacy Terms
    if (strpos($keyword, "primary care") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
    if (strpos($keyword, "family practice") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
 	break;
     }
    if (strpos($keyword, "endocrinology") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
    if (strpos($keyword, "endocrine") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
    if (strpos($keyword, "diabetes") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
    if (strpos($keyword, "infectious") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
-
-
-
    if (strpos($keyword, "internal") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
 	break;
     }
     if (strpos($keyword, "obstetrics") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
 	break;
     }
     if (strpos($keyword, "gynecology") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
    if (strpos($keyword, "oncology") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
    if (strpos($keyword, "cancer") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
 
     if (strpos($keyword, "pediatric") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
     if (strpos($keyword, "psychiatry") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
 
     if (strpos($keyword, "surgery") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
     if (strpos($keyword, "surgical") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
 
 
     if (strpos($keyword, "cardiology") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
     if (strpos($keyword, "cardiovascular") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
 
     if (strpos($keyword, "heart") !== false) {
-        array_push($subjects, "Medicine");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
     if (strpos($keyword, "anatomy") !== false) {
-        array_push($subjects, "Anatomy");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
     if (strpos($keyword, "pharmacy") !== false) {
-        array_push($subjects, "Pharmacy");
+        array_push($subjects, "Occupational Therapy");
         break;
     }
 
