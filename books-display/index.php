@@ -139,7 +139,7 @@ foreach(array_diff(array_keys($mergedArray[1]), $noFilters) as $column) {
 	// Sort in ascending order - this is default
 	$temp_options = scandir($dir);
 	//remove directory options
-	$temp_options = array_diff($temp_options,array('.', '..'));
+	$temp_options = array_diff($temp_options,array('.', '..', 'js'));
 	foreach($temp_options as $option) {
         	echo "<span style='margin-right:12px;'><label><input type=\"radio\" name=\"templates\" value=\"" . str_replace('.php', '', $option) . "\" onclick=\"\" style='margin-right:8px;' />" . str_replace('.php', '', $option) . "</label></span>";
 	}
