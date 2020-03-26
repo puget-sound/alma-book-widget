@@ -43,10 +43,10 @@ $template = clean($_GET['template']);
 			});
 
 			//When radio box gets checked or changed
-                        $('#form2').on('change','input', function() {
+            $('#form2').on('keyup change','input', function() {
 			   updateSlider();
 			   document.getElementById('div_templates').style.display = 'block';
-                        });
+            });
 			$('#templates').on('change','input', function() {
 			   updateSlider();	
 			});
@@ -80,8 +80,13 @@ $template = clean($_GET['template']);
                               if(template){
 					var url = "display.php?filter="+ filter +"&query="+ query +"&template=" + template ;
 			     		var url_complete = "<?php echo $urlBase ?>" + url;
+			     	if(template === "brightsign-ebooks") {
+					var url_embed = "<p><iframe frameborder=\"0\" scrolling=\"no\" src=\"" + url_complete + "\" width=\"100%\" height=\"650px\" id=\"ebookframe\"></iframe></p>";
+					}
+					else {
 					var url_embed = "<p><iframe frameborder=\"0\" scrolling=\"no\" src=\"" + url_complete + "\" width=\"100%\"></iframe></p>";
-
+					
+					}
 					$('#iframe').attr('src', url);
 					$('#urlInput').attr('value', url_embed);
 					document.getElementById('final').style.display = 'block';

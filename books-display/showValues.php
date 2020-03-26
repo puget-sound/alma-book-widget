@@ -46,9 +46,7 @@ elseif($filter == 'title' || $filter == 'author'){
 	echo "</ul>";
 }else{
 	foreach(array_unique(array_column($mergedArray, $filter)) as $value) {
-        	echo "<input type=\"radio\" name=\"values\" value=\"" . $value . "\" onclick=\"\" />";
-        	echo $value;
-		echo "&nbsp;&nbsp;";
+        	echo "<label><input type=\"radio\" name=\"values\" value=\"" . $value . "\" onclick=\"\" />" . $value . "</label>&nbsp;&nbsp;";
 	}
 }
 

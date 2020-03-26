@@ -47,10 +47,15 @@ if($type=='print'||$type=='electronic') {
 	while($IsFinished == "false"){
 		 $report = getReport($apikey,'',$num_records_api,$resumption);
 		 $status_xml = new SimpleXMLElement($report); //Converts API response to XML Element
+		 if(isset($status_xml->QueryResult->IsFinished)) {
 		 $IsFinished = $status_xml->QueryResult->IsFinished->__toString();
 		$book_array = analyzeResult($report,$type,$book_array,$column_labels,$isbnFileLocation); 
 		$i++;
 		echo count($book_array) . " records processed...\n";
+		}
+		else {
+			$IsFinished = "true";
+		}
 	 
 		//break if necessary	
 		 if ($i==20){

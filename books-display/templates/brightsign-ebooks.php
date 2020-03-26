@@ -9,8 +9,10 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <style>
-img{float:left;height:490px;width:300px;margin-top:55px}
-div.media-body{margin-top:110px;margin-left:425px;margin-right:0px}
+img{float:left;height:490px;width:360px;margin-top:55px}
+div.media-body{margin-top:110px;margin-left:400px;margin-right:0px}
+.cover-heading a:hover {text-decoration:none;}
+.container {min-width:720px !important;}
 </style>
 
 
@@ -25,7 +27,7 @@ div.media-body{margin-top:110px;margin-left:425px;margin-right:0px}
 
           <div class="masthead clearfix">
             <div class="container inner" style="text-align:center;">
-              <h3 class="deepshadow">New Books at Collins</h3>
+              <h3 class="deepshadow">New eBooks at Collins</h3>
 
             </div>
           </div>
@@ -46,20 +48,22 @@ $random = rand(1, count($results_array)-1);
                                 echo "<div class=\"media\">";
                                 echo "<div class=\"media-left media-middle\">";
                                 echo "<a href=\"". $results_array[$random]['catalog_url'] . "\" target=\"_blank\">";
+                                //echo "<a href=\"https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=title,contains,". $results_array[$random]['title'] . ",AND&pfilter=pfilter,exact,books,AND&tab=default_tab&search_scope=upugs_alma&vid=UPUGS&mode=advanced&offset=0\" target=\"_blank\" style=\"color:white !important;\">";
                                 echo "<img class=\"media-object\" src=\"";
                                 $cover = str_replace("sc.gif","lc.gif",$results_array[$random]['cover_url']);
                                 $cover = str_replace("MC.JPG","LC.JPG",$results_array[$random]['cover_url']);
                                 echo $cover;
                                 echo "\"></a></div>";
                                 echo "<div class=\"media-body\">";
-                                echo "<p style=\"font-size:2rem;\" class=\"cover-heading\">";
+                                echo "<p style=\"font-size:1.5rem;\" class=\"cover-heading\">";
                                 echo "<a href=\"". $results_array[$random]['catalog_url'] . "\" target=\"_blank\" style=\"color:white !important;\">";
+                                //echo "<a href=\"https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=title,contains,". $results_array[$random]['title'] . ",AND&pfilter=pfilter,exact,books,AND&tab=default_tab&search_scope=upugs_alma&vid=UPUGS&mode=advanced&offset=0\" target=\"_blank\" style=\"color:white !important;\">";
                                 echo trimTitle($results_array[$random]['title'], '150');
                                 echo "</a></p><br /><p style=\"font-size:1.5rem;\" class=\"lead\">";
                                 echo $results_array[$random]['author'];
-                                echo "</p><br /><div style=\"font-size:1.5rem\" class=\"location\">";
-                                echo $results_array[$random]['location'];
-                                echo "</div></div>";
+                                echo "</p>";
+                                //echo $results_array[$random]['location'];
+                                echo "</div>";
                                 echo "</div>";
 
                                 $i++;
@@ -83,7 +87,7 @@ $random = rand(1, count($results_array)-1);
                                 slidesToScroll: 1,
                                 autoplay: true,
                                 autoplaySpeed: 7000,
-                                arrows: false,
+                                arrows: true,
                         });
                         });
                 </script>

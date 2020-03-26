@@ -94,7 +94,8 @@ function analyzeResult($result,$type,$book_array,$column_labels,$isbnFileLocatio
 			$catalog_url = "https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&search_scope=everything&sortby=rank&vid=UPUGS&query=isbn,exact," . $isbn[0]; 
 		}
 		if ($type == 'electronic') {
-			$catalog_url = "https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/openurl?url_ver=Z39.88-2004&vid=UPUGS&institution=UPUGS&isbn=" . $isbn[0];
+			//$catalog_url = "https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/openurl?url_ver=Z39.88-2004&vid=UPUGS&institution=UPUGS&isbn=" . $isbn[0];
+			$catalog_url = "https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=title,contains,". $title . ",AND&pfilter=pfilter,exact,books,AND&tab=default_tab&search_scope=upugs_alma&vid=UPUGS&mode=advanced&offset=0";
 		}
 		$cover_url = $isbn_cover;
 		$group1 = explode(";", $book->{$column_labels['group1']}->__toString());		
