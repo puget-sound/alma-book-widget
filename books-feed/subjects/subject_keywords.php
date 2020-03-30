@@ -84,6 +84,14 @@ foreach ($keywords as $keyword) {
         array_push($subjects, "Business & Leadership");
         break;
     }
+   if (strpos($keyword, "management") !== false) {
+        array_push($subjects, "Business & Leadership");
+        break;
+    }
+   if (strpos($keyword, "leadership") !== false) {
+        array_push($subjects, "Business & Leadership");
+        break;
+    }
    if (strpos($keyword, "career") !== false) {
         array_push($subjects, "Career Resources");
         break;
@@ -172,6 +180,14 @@ foreach ($keywords as $keyword) {
         array_push($subjects, "Gender & Queer Studies");
         break;
     }
+   if (strpos($keyword, "women's studies") !== false) {
+        array_push($subjects, "Gender & Queer Studies");
+        break;
+    }
+   if (strpos($keyword, "womens studies") !== false) {
+        array_push($subjects, "Gender & Queer Studies");
+        break;
+    }
    if (strpos($keyword, "geosciences") !== false) {
         array_push($subjects, "Geology");
         break;
@@ -189,6 +205,10 @@ foreach ($keywords as $keyword) {
         break;
     }
    if (strpos($keyword, "hispanic") !== false) {
+        array_push($subjects, "Hispanic Studies");
+        break;
+    }
+   if (strpos($keyword, "spanish") !== false) {
         array_push($subjects, "Hispanic Studies");
         break;
     }
@@ -213,16 +233,6 @@ foreach ($keywords as $keyword) {
         array_push($subjects, "International Political Economy");
         break;
     }
-
-
-   if (strpos($keyword, "management") !== false) {
-        array_push($subjects, "Business & Leadership");
-        break;
-    }
-   if (strpos($keyword, "leadership") !== false) {
-        array_push($subjects, "Business & Leadership");
-        break;
-    }
    if (strpos($keyword, "mathematics") !== false) {
         array_push($subjects, "Mathematics");
         break;
@@ -235,12 +245,27 @@ foreach ($keywords as $keyword) {
         array_push($subjects, "Music");
         break;
     }
+   if (strpos($keyword, "natural science") !== false) {
+        array_push($subjects, "Natural Science");
+        break;
+    }
+   if (strpos($keyword, "neuroscience") !== false) {
+        array_push($subjects, "Neuroscience");
+        break;
+    }
+   if (strpos($keyword, "occupational therapy") !== false) {
+        array_push($subjects, "Occupational Therapy");
+        break;
    if (strpos($keyword, "philosophy") !== false) {
         array_push($subjects, "Philosophy");
         break;
     }
    if (strpos($keyword, "physical therapy") !== false) {
         array_push($subjects, "Physical Therapy");
+        break;
+    }
+   if (strpos($keyword, "physical education") !== false) {
+        array_push($subjects, "Physical Education");
         break;
     }
    if (strpos($keyword, "physics") !== false) {
@@ -257,6 +282,14 @@ foreach ($keywords as $keyword) {
     }
    if (strpos($keyword, "psychology") !== false) {
         array_push($subjects, "Psychology");
+        break;
+    }
+   if (strpos($keyword, "religious studies") !== false) {
+        array_push($subjects, "Religious Studies");
+        break;
+    }
+   if (strpos($keyword, "religion") !== false) {
+        array_push($subjects, "Religious Studies");
         break;
     }
    if (strpos($keyword, "Science and Society") !== false) {
@@ -283,101 +316,9 @@ foreach ($keywords as $keyword) {
         array_push($subjects, "Theatre Arts");
         break;
     }
-   if (strpos($keyword, "women's studies") !== false) {
-        array_push($subjects, "Gender & Queer Studies");
-        break;
-    }
-   if (strpos($keyword, "womens studies") !== false) {
-        array_push($subjects, "Gender & Queer Studies");
-        break;
-    }
-
-//Medicine and Pharmacy Terms
-   if (strpos($keyword, "primary care") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
-   if (strpos($keyword, "family practice") !== false) {
-        array_push($subjects, "Occupational Therapy");
-	break;
-    }
-   if (strpos($keyword, "endocrinology") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
-   if (strpos($keyword, "endocrine") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
-   if (strpos($keyword, "diabetes") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
-   if (strpos($keyword, "infectious") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
-   if (strpos($keyword, "internal") !== false) {
-        array_push($subjects, "Occupational Therapy");
-	break;
-    }
-    if (strpos($keyword, "obstetrics") !== false) {
-        array_push($subjects, "Occupational Therapy");
-	break;
-    }
-    if (strpos($keyword, "gynecology") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
-   if (strpos($keyword, "oncology") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
-   if (strpos($keyword, "cancer") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
-
-    if (strpos($keyword, "pediatric") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
-    if (strpos($keyword, "psychiatry") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
-
-    if (strpos($keyword, "surgery") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
-    if (strpos($keyword, "surgical") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
 
 
-    if (strpos($keyword, "cardiology") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
-    if (strpos($keyword, "cardiovascular") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
 
-    if (strpos($keyword, "heart") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
-    if (strpos($keyword, "anatomy") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
-    if (strpos($keyword, "pharmacy") !== false) {
-        array_push($subjects, "Occupational Therapy");
-        break;
-    }
 
 
 }
