@@ -59,7 +59,7 @@ foreach($group1 as $term) {
                         array_push($subjects, "Chemistry");
                         break;
                 case "Social pathology. Social and public welfare. Criminology":
-			array_push($subjects, "Politics & Government");
+			array_push($subjects, "Sociology & Anthropology");
 			break;
 		case "Commerce":
                         array_push($subjects, "Business & Leadership");
@@ -297,7 +297,13 @@ foreach($group1 as $term) {
                         break;							
                 case "History of the Greco-Roman world":
                         array_push($subjects, "History");
-                        break;		
+                        break;	
+                case "United States":
+                        array_push($subjects, "History");
+                        break;	
+                case "Industries. Land use. Labor":
+                        array_push($subjects, "International Political Economy");
+                        break;
                 case "International law, see JZ and KZ":
                         array_push($subjects, "International Political Economy");
                         break;
