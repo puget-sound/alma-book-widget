@@ -19,9 +19,6 @@ foreach($group1 as $term) {
 						array_push($subjects, "Environmental Policy & Decision Making");       
 						break;
 				case "Agriculture (General)":       
-						array_push($subjects, "Global Development Studies");       
-						break;
-				case "Agriculture (General)":       
 						array_push($subjects, "International Political Economy");       
 						break;
 				case "America":       
@@ -35,9 +32,6 @@ foreach($group1 as $term) {
 						break;
 				case "Animal culture":       
 						array_push($subjects, "Environmental Policy & Decision Making");       
-						break;
-				case "Animal culture":       
-						array_push($subjects, "Global Development Studies");       
 						break;
 				case "Animal culture":       
 						array_push($subjects, "International Political Economy");       
@@ -118,9 +112,6 @@ foreach($group1 as $term) {
 						break;
 				case "Colonies and colonization. Emigration and immigration. International migration":       
 						array_push($subjects, "International Political Economy");       
-						break;
-				case "Colonies and colonization. Emigration and immigration. International migration":       
-						array_push($subjects, "Global Development Studies");       
 						break;
 				case "Commerce":       
 						array_push($subjects, "Business & Leadership");       
