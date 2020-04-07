@@ -6,123 +6,230 @@
 foreach($group3 as $term) {
 
 	switch ($term) {
-    		case "Accounting. Bookkeeping":
-        		array_push($subjects, "Business & Leadership");
-        		break;
-		case "Reproduction of library materials. Storage media of library materials":
-			array_push($subjects, "Classics & Ancient Mediterranean Studies");
-			break;
-		case "Diseases of the respiratory system":
-                        array_push($subjects, "Occupational Therapy");
-                        break;
-                case "Career education":
-                        array_push($subjects, "Education Studies");
-                        break;
-                case "Vocational guidance. Career devlopment":
-                        array_push($subjects, "Career Resources");
-                        break;
-                case "Vocational rehabilitation":
-                        array_push($subjects, "Career Resources");
-                        break;
-                case "Employment of people with disabilities":
-                        array_push($subjects, "Career Resources");
-                        break;
-                case "Vocational rehabilitation":
-                        array_push($subjects, "Career Resources");
-                        break;
-                case "Interpersonal communication":
-                        array_push($subjects, "Communication Studies");
-                        break;
-                case "Oral communication. Speech":
-                        array_push($subjects, "Communication Studies");
-                        break;
-                case "Business communication Including business report writing, business correspondence":
-                        array_push($subjects, "Communication Studies");
-                        break;
-                case "Information technology":
-                        array_push($subjects, "Computer Science");
-                        break;
-                case "Computer engineering. Computer hardware":
-                        array_push($subjects, "Computer Science");
-                        break;
-                case "Calculating machines":
-                        array_push($subjects, "Computer Science");
-                        break;
-                case "Style. Composition. Rhetoric":
-                        array_push($subjects, "English");
-                        break;
-                case "Comparative grammar":
-                        array_push($subjects, "English");
-                        break;
-                case "Women. Girls; Gays. Lesbians. Bisexuals":
-                        array_push($subjects, "Gender & Queer Studies");
-                        break;	
-                case "Transexualism":
-                        array_push($subjects, "Gender & Queer Studies");
-                        break;			
-                case "Race (General)":
-                        array_push($subjects, "African American Studies");
-                        break;	
-                case "Special classes. By race or ethnic group":
-                        array_push($subjects, "Gender & Queer Studies");
-                        break;	
-                case "Multicultural education (General)":
-                        array_push($subjects, "Education Studies");
-                        break;							
-                case "Social perception. Social cognition":
-                        array_push($subjects, "Sociology & Anthropology");
-                        break;	
-                case "Personnel management. Employment":
-                        array_push($subjects, "Business & Leadership");
-                        break;							
-                case "Employee participation in management.":
-                        array_push($subjects, "Business & Leadership");
-                        break;
-                case "Business records management":
-                        array_push($subjects, "Business & Leadership");
-                        break;						
-                case "Supervision and administration. Business management":
-                        array_push($subjects, "Business & Leadership");
-                        break;						
-                case "Organizational behavior, change and":
-                        array_push($subjects, "Business & Leadership");
-                        break;						
-                case "Organizational sociology. Organization theory":
-                        array_push($subjects, "Business & Leadership");
-                        break;		
-                case "Industrial productivity":
-                        array_push($subjects, "Business & Leadership");
-                        break;
-		case "Marketing. Distribution of products":
-                        array_push($subjects, "Business & Leadership");
-                        break;
-                case "Personal health and hygiene Including clothing, bathing, exercise, travel, nutrition, sleep, sex hygiene":
-                        array_push($subjects, "Occupational Therapy");
-                        break;
-                case "Debating":
-                        array_push($subjects, "Politics & Government");
-                        break;
-                case "Government. Public Administration":
-                        array_push($subjects, "Politics & Government");
-                        break;
-                case "Community":
-                        array_push($subjects, "Sociology & Anthropology");
-                        break;
-                case "Community and the school":
-                        array_push($subjects, "Education Studies");
-                        break;
-                case "Neurology. Diseases of the nervous system Including speech disorders":
-                        array_push($subjects, "Neuroscience");
-                        break;	
-                case "Sports medicine":
-                        array_push($subjects, "Exercise Science");
-                        break;	
-                case "Dramatic representation. The theater":
-                        array_push($subjects, "Theatre Arts");
-                        break;
-                case "Biography of women (Collective)":
-                        array_push($subjects, "Gender & Queer Studies");
-                        break;		
+		case "Accounting. Bookkeeping":       array_push($subjects, "Business & Leadership");       break;
+		case "Advertising":       array_push($subjects, "Business & Leadership");       break;
+		case "Afro-Americans":       array_push($subjects, "African American Studies");       break;
+		case "Agricultural industries":       array_push($subjects, "Environmental Policy & Decision Making");       break;
+		case "Ancient":       array_push($subjects, "Classics & Ancient Mediterranean Studies");       break;
+		case "Antiquities. Civilization. Culture. Ethnography":       array_push($subjects, "Classics & Ancient Mediterranean Studies");       break;
+		case "Antiquities. Indians":       array_push($subjects, "History");       break;
+		case "Antiquities. Social life and customs. Ethnography":       array_push($subjects, "Classics & Ancient Mediterranean Studies");       break;
+		case "Arabic literature":       array_push($subjects, "Classics & Ancient Mediterranean Studies");       break;
+		case "Aristotle":       array_push($subjects, "Classics & Ancient Mediterranean Studies");       break;
+		case "Asian. Oriental":       array_push($subjects, "Asian Studies");       break;
+		case "Athletic contests. Sports events":       array_push($subjects, "Exercise Science");       break;
+		case "Ball games: Baseball, football, golf, etc.":       array_push($subjects, "Exercise Science");       break;
+		case "Athletic contests. Sports events":       array_push($subjects, "Physical Education");       break;
+		case "Ball games: Baseball, football, golf, etc.":       array_push($subjects, "Physical Education");       break;
+		case "Biography":       array_push($subjects, "History");       break;
+		case "Biography and portraits":       array_push($subjects, "History");       break;
+		case "Biography of women (Collective)":       array_push($subjects, "Gender & Queer Studies");       break;
+		case "Birds":       array_push($subjects, "Biology");       break;
+		case "Bolivia":       array_push($subjects, "Latin American Studies");       break;
+		case "Brazil":       array_push($subjects, "Latin American Studies");       break;
+		case "Broadcasting":       array_push($subjects, "Communication Studies");       break;
+		case "Burma":       array_push($subjects, "Asian Studies");       break;
+		case "Business communication Including business report writing, business correspondence":       array_push($subjects, "Communication Studies");       break;
+		case "Business ethics":       array_push($subjects, "Business & Leadership");       break;
+		case "Business records management":       array_push($subjects, "Business & Leadership");       break;
+		case "Calculating machines":       array_push($subjects, "Computer Science");       break;
+		case "Career education":       array_push($subjects, "Education Studies");       break;
+		case "Carters administration, 1977-1981":       array_push($subjects, "Politics & Government");       break;
+		case "Children. Child development Including child rearing, child life, play, socialization, childrens rights":       array_push($subjects, "Education Studies");       break;
+		case "Chile":       array_push($subjects, "Latin American Studies");       break;
+		case "Chinese language":       array_push($subjects, "Asian Languages & Cultures");       break;
+		case "Chinese literature":       array_push($subjects, "Asian Languages & Cultures");       break;
+		case "Chinese language":       array_push($subjects, "Asian Studies");       break;
+		case "Chinese literature":       array_push($subjects, "Asian Studies");       break;
+		case "Colonizing nations":       array_push($subjects, "International Political Economy");       break;
+		case "Comic books, strips, etc.":       array_push($subjects, "English");       break;
+		case "Commercial law":       array_push($subjects, "International Political Economy");       break;
+		case "Community":       array_push($subjects, "Sociology & Anthropology");       break;
+		case "Community and the school":       array_push($subjects, "Education Studies");       break;
+		case "Comparative grammar":       array_push($subjects, "English");       break;
+		case "Computer engineering. Computer hardware":       array_push($subjects, "Computer Science");       break;
+		case "Constitutional law":       array_push($subjects, "Politics & Government");       break;
+		case "Crimes and criminal classes":       array_push($subjects, "Politics & Government");       break;
+		case "Crimes and offenses":       array_push($subjects, "Politics & Government");       break;
+		case "Criminal classes":       array_push($subjects, "Politics & Government");       break;
+		case "Criminal law and procedure":       array_push($subjects, "Politics & Government");       break;
+		case "Crusades":       array_push($subjects, "Religious Studies");       break;
+		case "Cultural traits, customs, and institutions":       array_push($subjects, "Sociology & Anthropology");       break;
+		case "Cycling. Bicycling. Motorcycling":       array_push($subjects, "Exercise Science");       break;
+		case "Debating":       array_push($subjects, "Politics & Government");       break;
+		case "Disease (Communicable and noninfectious) and public health":       array_push($subjects, "Occupational Therapy");       break;
+		case "Diseases of the respiratory system":       array_push($subjects, "Occupational Therapy");       break;
+		case "Dogs. Dog racing":       array_push($subjects, "Biology");       break;
+		case "Dramatic representation. The theater":       array_push($subjects, "Theatre Arts");       break;
+		case "Dramatic representation. The theater":       array_push($subjects, "Theatre Arts");       break;
+		case "East Asia Including China, Japan, Korea":       array_push($subjects, "Asian Studies");       break;
+		case "Education and the state":       array_push($subjects, "Education Studies");       break;
+		case "Educational sociology":       array_push($subjects, "Education Studies");       break;
+		case "Employee participation in management.":       array_push($subjects, "Business & Leadership");       break;
+		case "Energy industries. Energy policy. Fuel trade":       array_push($subjects, "Environmental Policy & Decision Making");       break;
+		case "Entrepreneurship. Risk and uncertainty. Property":       array_push($subjects, "Business & Leadership");       break;
+		case "Environmental health Including sewage disposal, air pollution, nuisances, water supply":       array_push($subjects, "Environmental Policy & Decision Making");       break;
+		case "Epidemics. Epidemiology. Quarantine. Disinfection":       array_push($subjects, "Occupational Therapy");       break;
+		case "Ethnography":       array_push($subjects, "Sociology & Anthropology");       break;
+		case "Eugenics":       array_push($subjects, "Bioethics");       break;
+		case "Europe":       array_push($subjects, "History");       break;
+		case "Exceptional children and youth. Special education":       array_push($subjects, "Education Studies");       break;
+		case "Fighting sports: Bullfighting, boxing, fencing, etc.":       array_push($subjects, "Exercise Science");       break;
+		case "Fishery management. Fishery policy":       array_push($subjects, "Biology");       break;
+		case "Folk, national, and ethnic music":       array_push($subjects, "Music");       break;
+		case "French Indochina":       array_push($subjects, "Asian Studies");       break;
+		case "General works on Islam":       array_push($subjects, "Religious Studies");       break;
+		case "Government. Public Administration":       array_push($subjects, "Politics & Government");       break;
+		case "Greater Antilles":       array_push($subjects, "Latin American Studies");       break;
+		case "Ground and surface waters":       array_push($subjects, "Environmental Policy & Decision Making");       break;
+		case "Gymnastics. Gymnastic exercises Including calisthenics, heavy exercises, acrobatics, etc.":       array_push($subjects, "Exercise Science");       break;
+		case "Hiking. Pedestrian tours":       array_push($subjects, "Exercise Science");       break;
+		case "History":       array_push($subjects, "History");       break;
+		case "History of printmaking":       array_push($subjects, "Arts & Art History");       break;
+		case "Home education":       array_push($subjects, "Education Studies");       break;
+		case "Homer":       array_push($subjects, "Classics & Ancient Mediterranean Studies");       break;
+		case "Homosexuality. Lesbianism":       array_push($subjects, "Gender & Queer Studies");       break;
+		case "House of Romanov, 1613-1917":       array_push($subjects, "History");       break;
+		case "Immigration":       array_push($subjects, "International Political Economy");       break;
+		case "Income tax":       array_push($subjects, "Economics");       break;
+		case "Indian tribes and cultures":       array_push($subjects, "Sociology & Anthropology");       break;
+		case "Industrial hygiene. Industrial welfare":       array_push($subjects, "Environmental Policy & Decision Making");       break;
+		case "Industrial productivity":       array_push($subjects, "Business & Leadership");       break;
+		case "Information technology":       array_push($subjects, "Computer Science");       break;
+		case "Insects":       array_push($subjects, "Biology");       break;
+		case "Instruments and instrumental music":       array_push($subjects, "Music");       break;
+		case "International security. Disarmament. Global survival":       array_push($subjects, "International Political Economy");       break;
+		case "Interpersonal communication":       array_push($subjects, "Communication Studies");       break;
+		case "Interpersonal relations. Social behavior":       array_push($subjects, "Sociology & Anthropology");       break;
+		case "Investment companies. Investment trusts. Mutual funds":       array_push($subjects, "Economics");       break;
+		case "Islamic":       array_push($subjects, "Religious Studies");       break;
+		case "Japanese literature":       array_push($subjects, "Asian Languages & Cultures");       break;
+		case "Japanese literature":       array_push($subjects, "Asian Studies");       break;
+		case "Jews outside of Palestine":       array_push($subjects, "Religious Studies");       break;
+		case "Juvenile literature":       array_push($subjects, "Education Studies");       break;
+		case "Korean literature":       array_push($subjects, "Asian Languages & Cultures");       break;
+		case "Korean literature":       array_push($subjects, "Asian Studies");       break;
+		case "Landscape painting":       array_push($subjects, "Arts & Art History");       break;
+		case "Latin Kingdom of Jerusalem. Latin Orient, 1099-1291":       array_push($subjects, "Classics & Ancient Mediterranean Studies");       break;
+		case "Literature":       array_push($subjects, "English");       break;
+		case "Liturgy and ritual":       array_push($subjects, "Religious Studies");       break;
+		case "Local antiquities":       array_push($subjects, "Classics & Ancient Mediterranean Studies");       break;
+		case "Local history and description":       array_push($subjects, "History");       break;
+		case "Management of special enterprises":       array_push($subjects, "Business & Leadership");       break;
+		case "Manufacturing industries":       array_push($subjects, "International Political Economy");       break;
+		case "Man-woman relationships. Courtship. Dating":       array_push($subjects, "Gender & Queer Studies");       break;
+		case "Marketing. Distribution of products":       array_push($subjects, "Business & Leadership");       break;
+		case "Mathematical economics. Quantitative methods Including econometrics, input-output analysis, game theory":       array_push($subjects, "Mathematics");       break;
+		case "Mechanical industries Including electric utilities, electronic industries, and machinery":       array_push($subjects, "Engineering");       break;
+		case "Medieval":       array_push($subjects, "History");       break;
+		case "Medieval. Middle English (1066-1500)":       array_push($subjects, "History");       break;
+		case "Men, women, and children of the Bible":       array_push($subjects, "Religious Studies");       break;
+		case "Mental disorders. Child psychiatry":       array_push($subjects, "Psychology");       break;
+		case "Mineral industries. Metal trade":       array_push($subjects, "Geology");       break;
+		case "Missions in individual countries":       array_push($subjects, "Religious Studies");       break;
+		case "Monasticism. Religious orders":       array_push($subjects, "Religious Studies");       break;
+		case "Multicultural education (General)":       array_push($subjects, "Education Studies");       break;
+		case "Nature worship":       array_push($subjects, "Religious Studies");       break;
+		case "Neurology. Diseases of the nervous system Including speech disorders":       array_push($subjects, "Neuroscience");       break;
+		case "One solo instrument":       array_push($subjects, "Music");       break;
+		case "Oral communication. Speech":       array_push($subjects, "Communication Studies");       break;
+		case "Organizational behavior, change and":       array_push($subjects, "Business & Leadership");       break;
+		case "Organizational behavior, change and effectiveness. Corporate culture":       array_push($subjects, "Business & Leadership");       break;
+		case "Organizational sociology. Organization theory":       array_push($subjects, "Business & Leadership");       break;
+		case "Organs and functions of government":       array_push($subjects, "Politics & Government");       break;
+		case "Panama":       array_push($subjects, "Latin American Studies");       break;
+		case "Parents. Parenthood Including parent and child, husbands, fathers, wives, mothers":       array_push($subjects, "Gender & Queer Studies");       break;
+		case "Penology. Prisons. Corrections":       array_push($subjects, "Politics & Government");       break;
+		case "Personal health and hygiene Including clothing, bathing, exercise, travel, nutrition, sleep, sex hygiene":       array_push($subjects, "Occupational Therapy");       break;
+		case "Personnel management. Employment":       array_push($subjects, "Business & Leadership");       break;
+		case "Peru":       array_push($subjects, "Latin American Studies");       break;
+		case "Pharmacognosy. Pharmaceutical substances (Plant, animal, and inorganic)":       array_push($subjects, "Neuroscience");       break;
+		case "Pharmacognosy. Pharmaceutical substances (Plant, animal, and inorganic)":       array_push($subjects, "Biochemistry & Molecular Biology");       break;
+		case "Philosophy, theory, etc.":       array_push($subjects, "Philosophy");       break;
+		case "Physics and acoustics":       array_push($subjects, "Physics");       break;
+		case "Plucked instruments":       array_push($subjects, "Music");       break;
+		case "Poetry":       array_push($subjects, "English");       break;
+		case "Police. Detectives. Constabulary":       array_push($subjects, "Politics & Government");       break;
+		case "Political parties":       array_push($subjects, "Politics & Government");       break;
+		case "Political rights. Political participation":       array_push($subjects, "Politics & Government");       break;
+		case "Political rights. Practical politics":       array_push($subjects, "Politics & Government");       break;
+		case "Popular music":       array_push($subjects, "Music");       break;
+		case "Practical church work. Social work. Work of the layman":       array_push($subjects, "Religious Studies");       break;
+		case "Preaching. Homiletics":       array_push($subjects, "Religious Studies");       break;
+		case "Professional aspects of teaching and school administrators. Vocational guidance":       array_push($subjects, "Education Studies");       break;
+		case "Prose fiction":       array_push($subjects, "English");       break;
+		case "Prose fiction. The novel":       array_push($subjects, "English");       break;
+		case "Prostitution":       array_push($subjects, "Sociology & Anthropology");       break;
+		case "Provisions for personal medical care. Medical care plans":       array_push($subjects, "Bioethics");       break;
+		case "Provisions for personal medical care. Medical care plans":       array_push($subjects, "Occupational Therapy");       break;
+		case "Provisions for personal medical care. Medical care plans":       array_push($subjects, "Politics & Government");       break;
+		case "Psychiatry":       array_push($subjects, "Psychology");       break;
+		case "Psychology":       array_push($subjects, "Psychology");       break;
+		case "Race (General)":       array_push($subjects, "African American Studies");       break;
+		case "Race (General)":       array_push($subjects, "Sociology & Anthropology");       break;
+		case "Religion and education. Education under church control":       array_push($subjects, "Religious Studies");       break;
+		case "Religion and education. Education under church control":       array_push($subjects, "Education Studies");       break;
+		case "Religion and science":       array_push($subjects, "Religious Studies");       break;
+		case "Religion and science":       array_push($subjects, "Science, Technology & Society");       break;
+		case "Religions":       array_push($subjects, "Religious Studies");       break;
+		case "Religious aspects of music":       array_push($subjects, "Religious Studies");       break;
+		case "Religious aspects of music":       array_push($subjects, "Music");       break;
+		case "Revolution, 1917-1921":       array_push($subjects, "History");       break;
+		case "Risk in industry. Risk management":       array_push($subjects, "Business & Leadership");       break;
+		case "Sacraments. Ordinances":       array_push($subjects, "Religious Studies");       break;
+		case "Sacred books":       array_push($subjects, "Religious Studies");       break;
+		case "Salvador (El Salvador)":       array_push($subjects, "Latin American Studies");       break;
+		case "Secondary and elementary schools":       array_push($subjects, "Education Studies");       break;
+		case "Secular vocal music":       array_push($subjects, "Music");       break;
+		case "Sex instruction and sexual ethics":       array_push($subjects, "Gender & Queer Studies");       break;
+		case "Sex instruction and sexual ethics":       array_push($subjects, "Sociology & Anthropology");       break;
+		case "Sexual behavior and attitudes. Sexuality":       array_push($subjects, "Gender & Queer Studies");       break;
+		case "Sexual behavior and attitudes. Sexuality":       array_push($subjects, "Sociology & Anthropology");       break;
+		case "Shellfish fisheries. Shellfish culture":       array_push($subjects, "Biology");       break;
+		case "Slavery":       array_push($subjects, "African American Studies");       break;
+		case "Slavery":       array_push($subjects, "International Political Economy");       break;
+		case "Slavery in the United States. Antislavery movements":       array_push($subjects, "African American Studies");       break;
+		case "Small and medium-sized businesses, artisans, handicrafts, trades":       array_push($subjects, "International Political Economy");       break;
+		case "Social and political aspects of music":       array_push($subjects, "Music");       break;
+		case "Social influence. Social pressure":       array_push($subjects, "Sociology & Anthropology");       break;
+		case "Social perception. Social cognition":       array_push($subjects, "Sociology & Anthropology");       break;
+		case "Social responsibility of business":       array_push($subjects, "Business & Leadership");       break;
+		case "Solar system":       array_push($subjects, "Physics ");       break;
+		case "South Asia. Southeast Asia. East Asia":       array_push($subjects, "Asian Studies");       break;
+		case "Soviet regime, 1918-1991":       array_push($subjects, "History");       break;
+		case "Spanish America":       array_push($subjects, "Hispanic Studies");       break;
+		case "Spanish America":       array_push($subjects, "Latin American Studies");       break;
+		case "Spanish America":       array_push($subjects, "Latina/o Studies");       break;
+		case "Special parts of the Old Testament":       array_push($subjects, "Religious Studies");       break;
+		case "Sports medicine":       array_push($subjects, "Exercise Science");       break;
+		case "Stories and anecdotes":       array_push($subjects, "English");       break;
+		case "Style. Composition. Rhetoric":       array_push($subjects, "English");       break;
+		case "Supervision and administration. Business management":       array_push($subjects, "Business & Leadership");       break;
+		case "Taiwan":       array_push($subjects, "Asian Studies");       break;
+		case "Talmudic literature":       array_push($subjects, "Religious Studies");       break;
+		case "Teaching personnel":       array_push($subjects, "Education Studies");       break;
+		case "Technique. Practical journalism":       array_push($subjects, "Communication Studies");       break;
+		case "Technology":       array_push($subjects, "Science, Technology & Society");       break;
+		case "The practice of Islam":       array_push($subjects, "Religious Studies");       break;
+		case "Theology (Kalam)":       array_push($subjects, "Religious Studies");       break;
+		case "Tibetan Buddhism (Lamaism)":       array_push($subjects, "Religious Studies");       break;
+		case "Track and field athletics":       array_push($subjects, "Exercise Science");       break;
+		case "Track and field athletics":       array_push($subjects, "Physical Education");       break;
+		case "Trade unions. Labor unions. Workers associations":       array_push($subjects, "Business & Leadership");       break;
+		case "Transexualism":       array_push($subjects, "Gender & Queer Studies");       break;
+		case "Two or more solo instruments":       array_push($subjects, "Music");       break;
+		case "Umpires. Sports officiating":       array_push($subjects, "Exercise Science");       break;
+		case "Urban renewal. Urban redevelopment":       array_push($subjects, "Sociology & Anthropology");       break;
+		case "Urbanization. City and country":       array_push($subjects, "Sociology & Anthropology");       break;
+		case "Vergilius Maro, Publius (Virgil)":       array_push($subjects, "Classics & Ancient Mediterranean Studies");       break;
+		case "Victims of crimes. Victimology":       array_push($subjects, "Politics & Government");       break;
+		case "Vocal music":       array_push($subjects, "Music");       break;
+		case "Volcanoes and earthquakes":       array_push($subjects, "Geology");       break;
+		case "Water pollution":       array_push($subjects, "Environmental Policy & Decision Making");       break;
+		case "Water sports: Canoeing, sailing, yachting, scuba diving, etc.":       array_push($subjects, "Exercise Science");       break;
+		case "Wit and humor":       array_push($subjects, "English");       break;
+		case "Work groups. Team work in industry. Quality circles":       array_push($subjects, "Business & Leadership");       break;
+		case "Young men and women":       array_push($subjects, "Gender & Queer Studies");       break;
 	}//end Switch
 }//End foreach
 
