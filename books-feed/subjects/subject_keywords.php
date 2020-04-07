@@ -112,6 +112,10 @@ foreach ($keywords as $keyword) {
         array_push($subjects, "Classics & Ancient Mediterranean Studies");
         break;
     }
+   if (strpos($keyword, "philology") !== false) {
+        array_push($subjects, "Classics & Ancient Mediterranean Studies");
+        break;
+    }
    if (strpos($keyword, "communication") !== false) {
         array_push($subjects, "Communication Studies");
         break;
@@ -233,6 +237,15 @@ foreach ($keywords as $keyword) {
         array_push($subjects, "International Political Economy");
         break;
     }
+   if (strpos($keyword, "latinx") !== false) {
+        array_push($subjects, "Latina/o Studies");
+        break;
+    }
+   if (strpos($keyword, "hispanic american") !== false) {
+        array_push($subjects, "Latina/o Studies");
+        break;
+    }
+
    if (strpos($keyword, "mathematics") !== false) {
         array_push($subjects, "Mathematics");
         break;
